@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc  -asm $CFILE -o $CFILE.s
+gcc  -asm $CFILE -o *.s
