@@ -1,5 +1,5 @@
 #include "main.h"
-void print_alphabet_x10()
+void print_alphabet_x10(void)
 {
 	char ch;
 	int i;
