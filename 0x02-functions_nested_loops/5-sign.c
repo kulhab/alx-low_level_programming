@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - check the code.
- *
+ * @n: single value input
  * Return: Always 0.
  */
 int print_sign(int n)
