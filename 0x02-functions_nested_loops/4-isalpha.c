@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - check the code.
- * c -accept arguement
+ * @c: single letter input
  * Return: Always 0.
  */
 int _isalpha(int c)
