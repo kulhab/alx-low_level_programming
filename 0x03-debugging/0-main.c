@@ -6,7 +6,8 @@
 */
 int main(void)
 {
-	int i = 0;
+	int i;
+        i = 0;
 	int r;
 		r = positive_or_negative(i);
 		printf("%d is zero",r);
