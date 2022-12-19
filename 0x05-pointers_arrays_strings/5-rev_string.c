@@ -6,7 +6,7 @@
  * swap_char - swap char
  * @a: pointer variable
  * @b: pointer variable
- * @s: pointer variable
+ * 
  * Return: Always 0.
  */
 void swap_char(char *a, char *b);
