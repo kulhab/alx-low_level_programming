@@ -1,5 +1,4 @@
 #include "main.h"
-#include<stdio.h>
 /**
  * print_rev - check the code
  * @s: pointer variable
