@@ -1,8 +1,13 @@
+/**
+ * _strlen - check the code
+ * @s: pointer var
+ * Return: Always 0.
+ */
 int _strlen(char *s)
 {
 	int i;
-	i = 0;
-		while(s[i] != 0)
+		i = 0;
+		while (s[i] != 0)
 		{
 			i++;
 		}
