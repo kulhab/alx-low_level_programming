@@ -3,6 +3,9 @@
 
 /**
  * rev_string - check the code
+ * swap_char - swap char
+ * @a: pointer variable
+ * @b: pointer variable
  * @s: pointer variable
  * Return: Always 0.
  */
