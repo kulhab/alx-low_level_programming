@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include<stdio.h>
 /**
  * print_rev - check the code
  * @s: pointer variable
@@ -13,10 +13,12 @@ void print_rev(char *s)
 		{
 			i++;
 		}
+		
 		while (i >= 0)
 		{
 			_putchar(s[i]);
-			--i;
+			i--;
 		}
+		
 		_putchar('\n');
 }
