@@ -8,13 +8,9 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int j;
-		int diff;
-		j=0;
-		diff = 0;
-
-	while (1)
-	{
+	int j = 0, diff = 0;
+		while (1)
+		{
 		if (s1[j] == '\0' && s2[j] == '\0')
 			break;
 		else if (s1[j] == '\0')
@@ -35,6 +31,6 @@ int _strcmp(char *s1, char *s2)
 		else
 			j++;
 
-	}
+		}
 	return (diff);
 }
