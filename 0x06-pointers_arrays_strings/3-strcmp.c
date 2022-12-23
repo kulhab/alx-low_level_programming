@@ -2,16 +2,15 @@
 
 /**
 *  _strcmp - Function which compare two strings and
-*@s1: first string
-*@s2:second string
+*@ *s1: first string
+*@ *s2:second string
 */
 
 int _strcmp(char *s1, char *s2)
 {
 	int j = 0, diff = 0;
-
-	while (1)
-	{
+		while (1)
+		{
 		if (s1[j] == '\0' && s2[j] == '\0')
 			break;
 		else if (s1[j] == '\0')
@@ -32,6 +31,6 @@ int _strcmp(char *s1, char *s2)
 		else
 			j++;
 
-	}
+		}
 	return (diff);
 }
