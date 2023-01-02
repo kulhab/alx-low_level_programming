@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
+ * _memset - prints buffer in hexa
+ * @s: the address of memory to print
+ * @b: the byte to be filled
+ * @n: the size of the memory to print
  *
  * Return: Nothing.
  */
